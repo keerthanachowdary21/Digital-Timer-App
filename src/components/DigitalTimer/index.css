@@ -1,0 +1,137 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  align-self: center;
+  color: #1e293b;
+  margin-bottom: 80px;
+}
+.container-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timering-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.time-set {
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 300;
+}
+.second-container {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.state-reset-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading-Start-reset {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  outline: none;
+  border: none;
+  border-radius: none;
+  background-color: transparent;
+}
+.reset-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-right: 20px;
+  outline: none;
+  border: none;
+  border-radius: none;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 5px;
+}
+.in-de-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer-limit-text {
+  font-size: 15px;
+  color: #1e293b;
+  font-weight: 900;
+}
+.btn-container {
+  display: flex;
+  margin-top: 20px;
+}
+.btn {
+  align-items: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: 900;
+  font-size: 30px;
+}
+.timer {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-image: linear-gradient(
+    to right,
+    #0ffcd4,
+    #99e0ea,
+    #0ffcd4,
+    #07ede2
+  );
+  border: 2px solid #defafe;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 10vh;
+}
